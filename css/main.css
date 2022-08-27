@@ -1,4 +1,62 @@
+a {
+  text-decoration: none;
+}
+html {
+  padding: 0;
+}
 body {
   margin: 0;
-  background-color: #000;
+  padding: 0;
+  background-color: #181717;
+  background-image: url(https://iw233.cn/api.php?sort=mp);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header {
+  width: 100%;
+  height: 60px;
+  background-color: #121212;
+}
+.header {
+  width: 100%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1456px) {
+  .header,
+  section {
+    max-width: 1720px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .header,
+  section {
+    max-width: 1120px;
+  }
+  body {
+    background-image: url("https://api.ixiaowai.cn/api/api.php");
+  }
+}
+.Logo {
+  font-size: 24px;
+  line-height: 60px;
+  color: #efefef;
+}
+section {
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.title {
+  font-size: 22px;
+  color: #efefef;
+}
+.p {
+  color: #efefef;
+  text-decoration: none;
+  font-size: 16px;
+}
+li {
+  color: #efefef;
 }
